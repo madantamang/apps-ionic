@@ -9,16 +9,117 @@
 
 <ion-content padding>
 
-  <h3>Welcome to your first Ionic app!</h3>
+  <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Shopping
+    </button>
 
+    <button ion-item>
+      <ion-icon name="medical" item-start></ion-icon>
+      Hospital
+    </button>
+
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Cafe
+    </button>
+
+    <button ion-item>
+      <ion-icon name="paw" item-start></ion-icon>
+      Dog Park
+    </button>
+
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Pub
+    </button>
+
+    <button ion-item>
+      <ion-icon name="planet" item-start></ion-icon>
+      Space
+    </button>
+
+  </ion-list>
+</ion-card>
+ <ion-list>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-totoro.png">
+      </ion-thumbnail>
+      <h2>My Neighbor Totoro</h2>
+      <p>Hayao Miyazaki • 1988</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-rotla.png">
+      </ion-thumbnail>
+      <h2>Raiders of the Lost Ark</h2>
+      <p>Steven Spielberg • 1981</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-ghostbusters.png">
+      </ion-thumbnail>
+      <h2>Ghostbusters</h2>
+      <p>Ivan Reitman • 1984</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-batman.png">
+      </ion-thumbnail>
+      <h2>Batman</h2>
+      <p>Tim Burton • 1988</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-bttf.png">
+      </ion-thumbnail>
+      <h2>Back to the Future</h2>
+      <p>Robert Zemeckis • 1985</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-esb.png">
+      </ion-thumbnail>
+      <h2>The Empire Strikes Back</h2>
+      <p>Irvin Kershner • 1980</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/thumbnail-terminator.png">
+      </ion-thumbnail>
+      <h2>The Terminator</h2>
+      <p>James Cameron • 1984</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+  </ion-list>
+<ion-fab right bottom>
+    <button ion-fab color="light"><ion-icon name="arrow-dropleft"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-content>
